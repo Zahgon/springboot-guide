@@ -1,31 +1,16 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+### Go ###
+# Test binaries and coverage profiles
+*.test
+*.out
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Compiled binary produced by `go build`
+/bean-validation-demo
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
 
 ### VS Code ###
 .vscode/
